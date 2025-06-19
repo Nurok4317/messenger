@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python signaling_server.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
